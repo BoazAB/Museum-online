@@ -1,0 +1,10 @@
+body{
+    font-size: 20px;
+}
+h1{
+    font-size: 250%;
+    background-color: lightgray;
+    width:16vw;
+    padding:0px;
+    margin: auto;
+}
