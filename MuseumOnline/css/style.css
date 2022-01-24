@@ -49,6 +49,10 @@ nav > ul> li{
     background-color: cadetblue;
 }
 
+.tickets{
+    background-color: #000f949d;
+}
+
 nav > ul > li> a{
     height: 100%;
     width: 100%;
@@ -159,7 +163,7 @@ footer{
     position:relative;
     display:flex;
     align-items:center;
-    height: 100px;
+    height: 80px;
     bottom: 0;
 }
 
@@ -167,9 +171,7 @@ footer > p{
     width: 60vw;
     margin: 0 auto;
     padding-left: 40px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 p > a{
@@ -236,126 +238,58 @@ p > a{
 }
 
 figcaption{
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content:center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .slideshow{
-    width: 400px;
-    height: 500px;
+    width: 100vw;
+    height: 50vw;
     background-size: cover;
+    background-position: center;
     animation-name: fotoslider;
-    animation-duration: 150s;
+    animation-duration: 50s;
     animation-iteration-count: infinite;
+    z-index: -1;
 }
 
 @keyframes fotoslider {
     0%{
-        background-image: url("../img/boeker.png");
+        background-image: url("../img/rijksmuseum licht.png");
     }
-    5%{
-        background-image: url("../img/boeker.png");
+    19%{
+        background-image: url("../img/rijksmuseum licht.png");
     }
-    6%{
-        background-image: url("../img/hond.png");
-    }
-    11%{
-        background-image: url("../img/hond.png");
-    }
-    12%{
-        background-image: url("../img/ogh.png");
-    }
-    17%{
-        background-image: url("../img/ogh.png");
-    }
-    18%{
-        background-image: url("../img/kaRel.png");
-    }
-    23%{
-        background-image: url("../img/kaRel.png");
-    }
-    24%{
-        background-image: url("../img/BOOM.png");
+    20%{
+        background-image: url("../img/slidergang1.png");
     }
     39%{
-        background-image: url("../img/BOOM.png");
+        background-image: url("../img/slidergang1.png");
     }
     40%{
-        background-image: url("../img/melkgieter.png");
+        background-image: url("../img/rijksmuseumdonker.png");
     }
-    45%{
-        background-image: url("../img/melkgieter.png");
+    59%{
+        background-image: url("../img/rijksmuseumdonker.png");
     }
-    46%{
-        background-image: url("../img/mooisikie.png");
+    60%{
+        background-image: url("../img/slidegang3.png");
     }
-    51%{
-        background-image: url("../img/mooisikie.png");
+    79%{
+        background-image: url("../img/slidegang3.png");
     }
-    52%{
-        background-image: url("../img/netedame.png");
-    }
-    57%{
-        background-image: url("../img/netedame.png");
-    }
-    58%{
-        background-image: url("../img/nicesideburns.png");
-    }
-    63%{
-        background-image: url("../img/nicesideburns.png");
-    }
-    64%{
-        background-image: url("../img/plingplong.png");
-    }
-    69%{
-        background-image: url("../img/plingplong.png");
-    }
-    70%{
-        background-image: url("../img/praytogoat.png");
-    }
-    75%{
-        background-image: url("../img/praytogoat.png");
-    }
-    76%{
-        background-image: url("../img/vogelzitvast.png");
-    }
-    81%{
-        background-image: url("../img/vogelzitvast.png");
-    }
-    82%{
-        background-image: url("../img/watmoetdiehond.png");
-    }
-    87%{
-        background-image: url("../img/watmoetdiehond.png");
-    }
-    88%{
-        background-image: url("../img/watstaathier.png");
-    }
-    93%{
-        background-image: url("../img/watstaathier.png");
-    }
-    94%{
-        background-image: url("../img/zondersokennaarbed.png");
+    80%{
+        background-image: url("../img/slidergang2.png");
     }
     99%{
-        background-image: url("../img/zondersokennaarbed.png");
+        background-image: url("../img/slidergang2.png");
     }
     100%{
-        background-image: url("../img/boeker.png");
+        background-image: url("../img/rijksmuseum licht.png");
     }
 }
-
-
-
-/* begin tentoonstellingen  */
-
-
-/* einde tentoonstellingen */
-
-
-
 
 
 
