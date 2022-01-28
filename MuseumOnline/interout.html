@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel=" preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel=" preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <title>Rijksmuseum</title>
 </head>
+
 <body>
     <header id="header">
         <nav>
             <ul>
                 <li class="tickets"><a href="https://www.rijksmuseum.nl/nl/tickets/artikelen">Tickets</a></li>
-                <li><a href="geshiedenis.html">Over Ons</a></li>
+                <li ><a href="geshiedenis.html">Over Ons</a></li>
                 <li class="active"><a href="interout.html">interactieve route</a></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="interoutEN.html">English</a></li>
+                <li><a href="geschiedenisEN.html">English</a></li>
             </ul>
         </nav>
     </header>
-<article>
-<img src="/img/plategrond.jpg">
-<h3>
-<p>
-    Ons plan is om de interactieve route laten op te tellen van 0.1 naar 0.13 met A1 en A2 apart, 
-    met de functie om van plek te verplaatsen met twee pijltjes die aan de zijkanten van het scherm staan, 
-    en op die manier gaat het langs de kamers, je kan rond kijken door met je muis te slepen, 
-    en in de kamers kan je nog naar bepaalde plekken bewegen door te klikken op een van de plaatsen waar je heen kan.
-</p>
-</h3>
-</article>
-<!-- footer -->
-<footer>
-    <p>Openings tijden: Tijdelijk Gesloten</p>
-    <p>
-        <a href="https://www.rijksmuseum.nl/nl/footer/contact">Contact</a>
-    </p>
-</footer>
-
-<!-- einde footer -->
-<script src="script.js"></script>
+    <div id="container">
+        <img id="myImage" src="img/route1.png" alt="foto sb">
+        <div id="myInteraction">
+            <div id="myTitle">hier komt de title</div>
+            <input type="text" id="myInput" autocomplete="off">
+            <input type="button" value="voer in" onclick="getinput()">
+            <h3>Kies welke richting je op wilt:</h3>
+            <nav>
+                <button id="KnopNoord" onclick="goDirection('noord')">Noord</button>
+                <button id="KnopWest" onclick="goDirection('west')">West</button><button id="KnopOost"onclick="goDirection('oost')">Oost</button>
+                <button id="KnopZuid" onclick="goDirection('zuid')">Zuid</button>
+            </nav>
+        </div>
+        <img id="plattegrond" src="img/goedegrond.png">
+    </div>
+    <footer>
+        <p>Openings tijden: Tijdelijk Gesloten</p>
+        <p>
+            <a href="https://www.rijksmuseum.nl/nl/footer/contact">Contact</a>
+        </p>
+    </footer>
+    <script src="script2.js"></script>
 </body>
+
 </html>
